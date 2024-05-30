@@ -1,3 +1,5 @@
+import { Product } from './Products';
+
 export interface ProductDetail {
     id: number;
     title: string;
@@ -12,3 +14,7 @@ export interface Rating {
     rate: number;
     count: number;
 }
+
+export interface ProductDetail extends Product {
+    rating: Rating;
+  }
