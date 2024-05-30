@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { Product } from "../../types/Products";
 import { ProductService } from "../../services/ProductService";
 import { Button, Card, Container, ListGroup, Row } from "react-bootstrap";
-import './producttable.css'
+import './productTable.css'
 
 const ProductTable = () => {
 
